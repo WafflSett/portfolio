@@ -1,0 +1,10 @@
+.icon{
+    color: white;
+    font-size: 40px;
+}
+
+.page-content{
+    margin: 15%;
+    margin-bottom: 0;
+    display: flex;
+}

@@ -19,9 +19,15 @@ export class Home {
     "explodes",
     "awoooooooooooooooooo",
     "awoo",
-    "⚝",
+    "⚝ <- star",
     "you thought that was the last one?"
   ]
 
+  os = ""
+
   title = this.messages[Math.floor(Math.random()*this.messages.length)];
+
+  addAwoo(){
+    this.os=this.os+"o";
+  }
 }

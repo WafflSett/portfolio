@@ -1,0 +1,34 @@
+<h1 class="text-main display-4 mb-0"><span class="text-green">G</span>ames</h1>
+<h4 class="text-sub fw-light fs-5 mb-5">under construction</h4>
+    
+<div class="container mb-5">
+    @for (game of games; track $index) {
+        <div class="row mb-4">
+            <div class="col-md-4 col-sm-12 mb-4 d-flex justify-content-center">
+                <img [src]="game.thumbnail" [alt]="game.title" class="img-fit background-main rounded-4" >
+            </div>
+            <div class="col-md-8 col-sm-12">
+                <p class="text-main mb-0 d-flex justify-content-between align-items-center"><a class="fs-3 text-decoration-none text-main" [href]="game.link" target="_blank">{{game.title}}</a> <span class="fs-5">{{game.status}}</span></p>
+                @for (lang of game.languages; track $index) {
+                    <p class="badge mx-1 {{lang.color}}">
+                        @if (lang.link == "") {
+                            <span class="text-main">{{lang.title}}</span>
+                        }@else {
+                            <a class="text-decoration-none text-main" [href]="lang.link">{{lang.title}}</a>
+                        }
+                    </p>
+                }
+                <p class="text-sub fs-5">{{game.description}}</p>
+                <div class="row fs-5">
+                    <p class="text-main">
+                        {{game.date}}
+                    </p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<footer class="fixed-bottom p-2 background-black d-flex justify-content-center">
+    <a class="fs-3 text-decoration-none text-option" href=".">⚝&nbsp;&nbsp;Back</a>
+</footer>

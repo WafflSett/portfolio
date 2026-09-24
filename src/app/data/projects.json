@@ -1,0 +1,62 @@
+[
+  {
+    "title": "DogMeetGo",
+    "link": "https://github.com/WafflSett/DogMeetGo",
+    "description": "Social mobile app - connecting dog owners for walks. Add your dogs, select a location and let other users join you for a walk!",
+    "date": "2026",
+    "languages": [
+      {
+        "title": "MAUI",
+        "link": "https://dotnet.microsoft.com/en-us/apps/maui",
+        "color": "background-purple"
+      },
+      {
+        "title": "ASP.NET",
+        "link": "https://dotnet.microsoft.com/en-us/apps/aspnet",
+        "color": "background-purple"
+      }
+    ],
+    "status": "In Development",
+    "thumbnail": "dog-meet-go.webp"
+  },
+  {
+    "title": "Caterer",
+    "link": "https://github.com/zarodolgozat-13A-TG-MA",
+    "description": "A complex restaurant management system. Guests scan the nfc tag at their table and order through the mobile app.",
+    "date": "2026",
+    "languages": [
+      {
+        "title": "MAUI",
+        "link": "https://dotnet.microsoft.com/en-us/apps/maui",
+        "color": "background-purple"
+      },
+      {
+        "title": "Angular",
+        "link": "https://angular.dev",
+        "color": "background-red"
+      },
+      {
+        "title": "ASP.NET",
+        "link": "https://dotnet.microsoft.com/en-us/apps/aspnet",
+        "color": "background-purple"
+      }
+    ],
+    "status": "Finished",
+    "thumbnail": "caterer.webp"
+  },
+  {
+    "title": "SpotifyBPM",
+    "link": "https://github.com/WafflSett/SpotifyBPM",
+    "description": "Mobile app to create spotify playlists based on selected parameters like tempo, key or other details such as liveliness or acousticness.",
+    "date": "2025",
+    "languages": [
+      {
+        "title": "MAUI",
+        "link": "https://dotnet.microsoft.com/en-us/apps/maui",
+        "color": "background-purple"
+      }
+    ],
+    "status": "Halted",
+    "thumbnail": "spotify.webp"
+  }
+]

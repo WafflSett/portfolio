@@ -1,0 +1,92 @@
+[
+    {
+        "title": "TypoMania",
+        "link": "https://github.com/WafflSett/TypingGame2D",
+        "description": "Typing action RPG, fight monsters by typing the words carved into your bullets. Parry enemy attacks by typing their attack names correctly.",
+        "date": "2026",
+        "languages": [
+            {
+            "title": "Unity",
+            "link": "https://unity.com/",
+            "color": "background-blue"
+            }
+        ],
+        "status": "In Progress",
+        "thumbnail": "typomania.webp"
+    },
+    {
+        "title": "Celestial Ascent",
+        "link": "https://github.com/WafflSett/CelestialAscent",
+        "description": "Deck building rougelite card game, all card art drawn by me.",
+        "date": "2026",
+        "languages": [
+            {
+            "title": "Unity",
+            "link": "https://unity.com/",
+            "color": "background-blue"
+            }
+        ],
+        "status": "In Progress",
+        "thumbnail": "celestial-asc.webp"
+    },
+    {
+        "title": "Haste Character Mod",
+        "link": "https://store.steampowered.com/app/1796470/Haste/",
+        "description": "Modded my own custom avatar into the rougelite parkour game \"Haste\".",
+        "date": "2026",
+        "languages": [
+            {
+                "title": "Blender",
+                "link": "https://www.blender.org/",
+                "color": "background-orange"
+            },
+            {
+            "title": "Unity",
+            "link": "https://unity.com/",
+            "color": "background-blue"
+            }
+        ],
+        "status": "Finished",
+        "thumbnail": "haste-mod.webp"
+    },
+    {
+        "title": "Dead As Disco Character Mod",
+        "link": "https://store.steampowered.com/app/3404260/Dead_as_Disco/",
+        "description": "Modded my own custom avatar into the rhythm fighting game \"Dead as Disco\".",
+        "date": "2025",
+        "languages": [
+            {
+            "title": "Blender",
+            "link": "https://www.blender.org/",
+            "color": "background-orange"
+            },
+            {
+            "title": "Unreal Engine",
+            "link": "https://www.unrealengine.com/",
+            "color": "background-red"
+            }
+        ],
+        "status": "Finished",
+        "thumbnail": "dadmod.webp"
+    },
+    {
+      "title": "Texas Hold'em",
+      "link": "https://github.com/WafflSett/WebSocketPokerClient",
+      "description": "An online multiplayer poker game written in vanilla HTML/TS and NodeJS for a school assignment. Mostly works..",
+      "date": "2025",
+      "languages": [
+        {
+          "title": "Vite",
+          "link": "",
+          "color": "background-orange"
+        },
+        {
+          "title": "TypeScript",
+          "link": "",
+          "color": "background-blue"
+        }
+      ],
+      "status": "Finished",
+      "thumbnail": "poker.webp"
+    }
+]

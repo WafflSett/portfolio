@@ -2,5 +2,109 @@
 @import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 
 :root {
-    --off-white: #e28771;
+    --white: #ece0b7;
+    --off-white: #aa9e77;
+    --off-black: #1d2021;
+    --red: #c7192b;
+    --blue: #0073d3;
+    --green: #008d54;
+    --purple: #923bbf;
+    --yellow: #c39646;
+    --orange: #ad5d00;
+    
+}
+
+
+body{
+    font-family: "Pochaevsk", system-ui !important;
+    color: var(--white);
+    background-color: var(--off-black);
+}
+
+.app-root{
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+}
+
+.text-main{
+    color: var(--white) !important;
+}
+
+.text-sub{
+    color: var(--off-white) !important;
+}
+
+.text-red{
+    color: var(--red) !important;
+}
+
+.text-blue{
+    color: var(--blue) !important;
+}
+
+.text-green{
+    color: var(--green) !important;
+}
+
+.text-purple{
+    color: var(--purple) !important;
+}
+
+.text-yellow{
+    color: var(--yellow) !important;
+}
+
+.text-option{
+    color: var(--white) !important;
+}
+
+.background-main{
+    background-color: var(--white) !important;
+}
+
+.background-black{
+    background-color: var(--off-black) !important;
+}
+
+.background-sub{
+    background-color: var(--off-white) !important;
+}
+
+.background-red{
+    background-color: var(--red) !important;
+}
+
+.background-blue{
+    background-color: var(--blue) !important;
+}
+
+.background-green{
+    background-color: var(--green) !important;
+}
+
+.background-purple{
+    background-color: var(--purple) !important;
+}
+
+.background-yellow{
+    background-color: var(--yellow) !important;
+}
+
+.background-orange{
+    background-color: var(--orange) !important;
+}
+
+.background-option{
+    background-color: var(--white) !important;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.img-fit{
+    height: 20vh;
+    object-fit: scale-down;
+    margin: auto;
 }

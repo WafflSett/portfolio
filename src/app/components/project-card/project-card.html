@@ -1,0 +1,23 @@
+<div class="row mb-4">
+    <div class="col-md-4 col-sm-12 mb-4 d-flex justify-content-center">
+        <img [src]="project.thumbnail" [alt]="project.title" class="img-fit background-main rounded-4" >
+    </div>
+    <div class="col-md-8 col-sm-12">
+        <p class="text-main mb-0 d-flex align-items-center row"><a class="fs-3 text-decoration-none text-main col-sm-12 col-md-8" [href]="project.link" target="_blank">{{project.title}}</a> <span class="fs-6 col-sm-12 col-md-4 text-md-end text-sm-start">{{project.status}}</span></p>
+        @for (lang of project.languages; track $index) {
+            <p class="badge {{$index==0?'me-1':'mx-1'}} {{lang.color}}">
+                @if (lang.link == "") {
+                    <span class="text-main">{{lang.title}}</span>
+                }@else {
+                    <a class="text-decoration-none text-main" [href]="lang.link">{{lang.title}}</a>
+                }
+            </p>
+        }
+        <p class="text-sub fs-5 text-justify">{{project.description}}</p>
+        <div class="row fs-5">
+            <p class="text-main">
+                {{project.date}}
+            </p>
+        </div>
+    </div>
+</div>

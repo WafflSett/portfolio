@@ -19,6 +19,7 @@ body{
     font-family: "Pochaevsk", system-ui !important;
     color: var(--white);
     background-color: var(--off-black);
+    overflow-x: hidden;
 }
 
 .app-root{
@@ -107,4 +108,8 @@ body{
     height: 20vh;
     object-fit: scale-down;
     margin: auto;
+}
+
+.text-justify {
+    text-align: justify;
 }

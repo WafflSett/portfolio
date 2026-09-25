@@ -1,0 +1,12 @@
+<h1 class="text-main display-4 mb-0"><span class="text-green">G</span>ames</h1>
+<h4 class="text-sub fw-light fs-5 mb-5">under construction</h4>
+    
+<div class="container mb-5">
+    @for (game of games; track $index) {
+        <app-project-card [project]="game"></app-project-card>
+    }
+</div>
+
+<footer class="fixed-bottom p-2 background-black d-flex justify-content-center">
+    <a class="fs-3 text-decoration-none text-option" href=".">⚝&nbsp;&nbsp;Back</a>
+</footer>

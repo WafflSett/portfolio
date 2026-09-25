@@ -1,8 +1,8 @@
 import { Routes } from '@angular/router';
-import { Home } from './components/home/home';
-import { NotFound } from './components/not-found/not-found';
-import { Projects } from './components/projects/projects';
-import { Games } from './components/games/games';
+import { Home } from './pages/home/home';
+import { NotFound } from './pages/not-found/not-found';
+import { Projects } from './pages/projects/projects';
+import { Games } from './pages/games/games';
 
 export const routes: Routes = [
     {path:'', component: Home},

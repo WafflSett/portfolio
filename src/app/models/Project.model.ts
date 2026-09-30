@@ -2,6 +2,7 @@ export default interface Project {
     title:string,
     status: string,
     link:string,
+    play?:string,
     description: string,
     date:string,
     thumbnail: string,

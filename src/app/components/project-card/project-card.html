@@ -1,4 +1,4 @@
-<div class="row mb-4">
+<div class="row mb-4 border-bottom border-black">
     <div class="col-md-4 col-sm-12 mb-4 d-flex justify-content-center">
         <img [src]="project.thumbnail" [alt]="project.title" class="img-fit background-main rounded-4" >
     </div>
@@ -13,11 +13,16 @@
                 }
             </p>
         }
+        
         <p class="text-sub fs-5 text-justify">{{project.description}}</p>
         <div class="row fs-5">
             <p class="text-main">
                 {{project.date}}
+                @if (project.play){
+                    <a [href]="project.play" class="float-end btn btn-primary py-1">Play</a>
+                }
             </p>
+            
         </div>
     </div>
 </div>

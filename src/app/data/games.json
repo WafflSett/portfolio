@@ -1,5 +1,20 @@
 [
     {
+        "title": "Lighthouse Keeper",
+        "link": "https://wafflsett.itch.io/lighthouse-keeper",
+        "play": "https://lighthousegame.wafflsett.dev",
+        "description": "I challenged myself to make a complete game in just 72 hours; this is the result. A short game where you must guide the lost ships back to their village.",
+        "date": "2026",
+        "languages": [
+            {
+            "title": "Unity",
+            "link": "https://unity.com/",
+            "color": "background-blue"
+            }
+        ],
+        "status": "Finished",
+        "thumbnail": "lighthouse.webp"
+    },{
         "title": "TypoMania",
         "link": "https://github.com/WafflSett/TypingGame2D",
         "description": "Typing action RPG, fight monsters by typing the words carved into your bullets. Parry enemy attacks by typing their attack names correctly.",
